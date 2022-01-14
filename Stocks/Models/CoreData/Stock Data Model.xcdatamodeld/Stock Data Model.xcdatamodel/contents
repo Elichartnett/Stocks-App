@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Stock" representedClassName="Stock" syncable="YES">
+        <attribute name="avgVolume" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="change" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="changesPercentage" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="dayHigh" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="dayLow" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="earningsAnnouncement" attributeType="String" defaultValueString=""/>
+        <attribute name="eps" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="exchange" attributeType="String" defaultValueString=""/>
+        <attribute name="historicalPrices" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer" customClassName="[Double]"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isFavorite" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="lastRefresh" attributeType="Date" defaultDateTimeInterval="662619360" usesScalarValueType="NO"/>
+        <attribute name="marketCap" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <attribute name="open" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="pe" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="previousClose" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="price" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="priceAvg50" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="priceAvg200" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sharesOutStanding" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ticker" attributeType="String" defaultValueString=""/>
+        <attribute name="timestamp" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="volume" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="yearHigh" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="yearLow" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Stock" positionX="-63" positionY="-18" width="128" height="419"/>
+    </elements>
+</model>
